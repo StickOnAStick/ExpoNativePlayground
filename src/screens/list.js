@@ -8,7 +8,7 @@ export default function List() {
     const navigation = useNavigation();
 
     function navigateToDashboard() {
-        navigation.navigate("Dashboard");
+        navigation.navigate("Profile");
     }
     
     return (
